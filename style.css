@@ -2,11 +2,12 @@
     box-sizing: border-box;
 }
 
+
 header {
     width: 100%;
     height: 100px;
     background-color: rgb(59, 59, 59);
-    position: absolute;
+    position: relative;
     padding: 100px;
 }
 
@@ -20,12 +21,12 @@ header img {
 header nav ul li {
     position: relative;
     display: inline-block;
-    float: right;
+float: right;
     padding-right: 80px;
     margin-top: 40px;
 }
 
-header nav ul li :first-child {
+header nav ul li :first-of-type {
     padding-right: 50px;
 }
 
@@ -35,8 +36,9 @@ header nav ul li a {
     font-size: 20px;
 }
 
-header nav ul li a :hover {
-    color: #ffffff;
+header nav ul li :hover {
+    color: white;
+    font-size: 25px;
 }
 
 
@@ -48,7 +50,7 @@ body main {
 
 body main :first-child{
     display: block;
-    margin-top: 150px;
+    margin-top: 50px;
     margin-bottom: 20px;
     position:relative;
     position: center;
@@ -117,6 +119,7 @@ text-align: center;
 
 }
 
+
 main img.image{
 
 margin-right: 50px;
@@ -124,12 +127,13 @@ margin-right: 50px;
     position: relative;
     float: left;
     padding-left:250px;
-    /* margin-top: 15px; */
 }
 
-footer {
+
+footer  {
+position:absolute;
+display: block;
     width: 100%;
     background-color: rgb(59, 59, 59);
-    margin-top: 10px;
         
 }
