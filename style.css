@@ -1,57 +1,50 @@
 * {
     box-sizing: border-box;
+    margin:auto;
 }
 
 
 header {
     width: 100%;
-    height: 100px;
     background-color: rgb(59, 59, 59);
     position: relative;
-    padding: 100px;
+    padding: 30px;
 }
 
 header img {
-    position: relative;
-    float: left;
+    display: inline-block;
+    
     padding-left: 70px;
-    margin-top: 15px;
+    margin-bottom: auto;
 }
 
 header nav ul li {
-    position: relative;
 float: right;
-    padding-right: 80px;
-    margin-top: 40px;
-}
-
-header nav ul li :first-of-type {
-    padding-right: 50px;
+    padding-right: 100px;
+    
 }
 
 header nav ul li a {
     text-decoration: none;
     color:rgb(194, 202, 194);
     font-size: 20px;
+    padding-bottom: 50px;
 }
 
 header nav ul li :hover {
-    color: white;
+    color: rgb(8, 8, 8);
     font-size: 25px;
+    text-align: center;
 }
 
 
 
-
-/* body main {
-    /* position: absolute; */
+  
 
 body main :first-child{
     display: block;
     margin-top: 50px;
     margin-bottom: 20px;
-    position:relative;
-    position: center;
     margin-right: auto;
     margin-left: auto;
 
@@ -62,18 +55,15 @@ body main :first-child{
 
 main :nth-child(2){
 display: inline-block;
-position: relative;
-position: center;
 margin-right: auto;
     margin-left: auto;
-    margin:20px;
-padding-left: 240px;
+    margin: 15px;
+padding-left: 250px;
 }
+
 
 main :nth-child(3){
     display: inline-block;
-position: relative;
-position: center;
 margin-right: auto;
     margin-left: auto;
     margin:20px;
@@ -81,8 +71,6 @@ margin-right: auto;
 
  main :nth-child(4){
         display: inline-block;
-position: relative;
-position: center;
 margin-right: auto;
     margin-left: auto;
     margin:20px;
@@ -102,10 +90,9 @@ main p {
 
 main a {
     display: inline-block;
-    position: relative;
 text-decoration: none;
 text-align: center;
-    border: solid black;
+    border: solid rgb(0, 0, 0);
     background-color: rgb(59, 59, 59);
     padding: 10px;
     width:20%;
@@ -125,7 +112,6 @@ main a:hover{
 main img.image{
 
 margin-right: 50px;
-    position: relative;
     float: left;
     padding-left:250px;
     margin-bottom: 40px;
@@ -135,7 +121,6 @@ footer {
     position:relative;
     clear:both;
     background-color: rgb(59, 59, 59);
-    height: 90px;
+    height: 60px;
     text-align: center;
-    /* font-size: 00px; */
 }
